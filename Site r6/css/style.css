@@ -1,0 +1,203 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Regles générales  */ 
+main {
+    background-color: black;
+}
+
+
+/* Partie Carte  */
+#map
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url(../img/Calque3.png);
+    width: 100%;
+    height: 995px;
+    margin: 0;
+    padding: 0;
+    box-shadow: inset -800px 0px 185px -30px rgba(0,0,0,0.90);
+    filter: brightness(0.78);
+}
+.carte {
+    width: 50%;
+    margin-right: 150px;
+    
+}
+.carte h1 {
+    
+    text-align: center;
+    color: #ffd700;
+    text-transform: uppercase;
+    border: solid 2px #fff;
+    width: 120px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+}
+
+.text {
+    color: #fff;
+    padding: 25px;
+    border: dotted 2px #fff;
+    width: 1037px;
+    height: 500px;
+}
+
+.text p {
+    text-align: center;
+    padding: 50px 50px 20px 50px;
+    font-size: 1.3em;
+}
+
+.text a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin: 0 auto 25px auto ;
+    width: 218px;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffd700;
+    border-radius: 30px;
+    
+}
+
+
+/* Partie Agent */
+
+/* image fond */
+#agents
+{
+    background: url(../img/Calque4.png);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 995px;
+    margin: 0;
+    padding: 0;
+    box-shadow: inset 800px 0px 185px -30px rgba(0,0,0,0.90);
+    filter: brightness(0.78);
+}
+.perso {
+    position: relative;
+    left: 150px;
+}
+
+/* titre  */
+.perso h1
+{
+    text-align: center;
+    color: #ffd700;
+    text-transform: uppercase;
+    border: solid 2px #fff;
+    width: 200px;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    font-size: 2em;
+}
+
+
+/* Image recrue  */
+.grid li {
+    margin-top: 35px;
+    width: 173px;
+    height: 173px;
+}
+.one{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+.grid  {
+    border: dotted 2px #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1037px;
+    left: 150px;
+    flex-wrap:wrap
+}
+
+/* lien a  */
+
+.grid a {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin: 40px auto 25px auto ;
+    width: 218px;
+    height: 78px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ffd700;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
