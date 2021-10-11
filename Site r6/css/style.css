@@ -143,7 +143,6 @@ h1 {
 .carte {
     width: 50%;
     margin-right: 150px;
-    
 }
 .carte h1 {
     
@@ -159,8 +158,8 @@ h1 {
 .text {
     color: #fff;
     padding: 25px;
+    width: 100%;
     border: dotted 2px #fff;
-    width: 1037px;
     height: 500px;
 }
 
@@ -168,7 +167,9 @@ h1 {
     text-align: center;
     padding: 50px 50px 20px 50px;
     font-size: 1.3em;
+    
 }
+
 
 .text a {
     display: flex;
@@ -208,6 +209,7 @@ h1 {
 .perso {
     position: relative;
     left: 150px;
+    width: 50%;
 }
 
 /* titre  */
@@ -238,7 +240,7 @@ h1 {
 
 
 .grid  {
-    border: dotted 2px #fff;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,19 +248,22 @@ h1 {
     flex-wrap:wrap;
     z-index: 1;
 }
-
+.ul    {
+    border: dotted 2px #fff;
+    width: 100%;
+}
 
 /* Perdo droite  */
 .sledge {
     position: relative;
-    right: 550px;
-    top:-104px;
+    right: 253px;
+    top: 6px;
     z-index: 4;
 }
 .lion {
     position: relative;
-    right: -3px;
-    top: 70px;
+    right: -118px;
+    top: 190px;
     z-index: 5;
 }
 
